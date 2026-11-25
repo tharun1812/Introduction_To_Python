@@ -15,5 +15,7 @@ ana = Student("Ana")
 for g in [14, 16, 12]:
     ana.add_grade(g)
 ben = Student("Ben")
+for g in [15, 19, 17]:
+    ben.add_grade(g)
 print(ana.name, ana.compute_average())
 print(ben.name, ben.compute_average())
